@@ -1,0 +1,10 @@
+.\zookeeper-server-start.bat  C:\apache_kafka\config\zookeeper.properties
+.\kafka-server-start.bat  C:\apache_kafka\config\server.properties
+
+create database wikimedia
+
+
+create login wikimedia_user with password = 'wikimedia_pwd'
+
+use wikimedia;
+create user wikimedia_user for login wikimedia_user;
