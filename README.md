@@ -33,7 +33,7 @@ To run the Kafka producer module, execute the following command:
 java -jar kafka-producer/target/kafka-producer-0.0.1-SNAPSHOT.jar
 ```
 
-###Kafka Consumer Service
+### Kafka Consumer Service
 
 To run the Kafka consumer service module, execute the following command:
 
@@ -49,7 +49,7 @@ Ensure that Kafka broker properties are correctly configured in application.prop
 ### Database Configuration
 Configure the Microsoft SQL Server database connection properties in the application.properties file of the kafka-consumer-service module.
 
-Kafka Consumer Service Configuration
+### Kafka Consumer Service Configuration
 The Kafka consumer service module can be configured further for various purposes, such as scaling and optimization. Additional configurations, such as adjusting concurrency or tuning consumer properties, can be done in the application.properties file of the kafka-consumer-service module.
 
 ## Usage
